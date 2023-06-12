@@ -65,6 +65,7 @@ jobs:
         uses: thedoctor0/zip-release@0.7.1
         with:
           filename: ${{ secrets.DOCKER_HUB_CONTAINER }}.zip
+          exclusions: '*.git* *.md Dockerfile /src/*'
       - 
         name: Create GitHub Release
         id: create_release
