@@ -11,4 +11,3 @@ https://dl-cdn.alpinelinux.org/alpine/edge/testing/
 EOF
 
 apk update
-apk add --no-cache R
