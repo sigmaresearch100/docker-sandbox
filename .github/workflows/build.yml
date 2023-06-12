@@ -16,7 +16,7 @@ jobs:
       -
         name: Checkout 
         uses: actions/checkout@v3
-	  -
+      -
         name: Set current date
         run: |
           echo "DATE=$( date '+%F-%H%M%S' )" >> "$GITHUB_ENV"
